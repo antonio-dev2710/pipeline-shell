@@ -1,7 +1,7 @@
-job:
-  script:
-  - echo "Aprendendo sobre pipeline"
-  - echo "Testando"
+image: maven:3.8.6-openjdk-18
+
 build:
+  stage: build
   script:
-  - echo "Mais um teste"
+  - mvn package -Dmaven.test.skip
+  
