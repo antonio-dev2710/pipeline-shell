@@ -1,0 +1,4 @@
+job:
+  script:
+  - echo "Aprendendo sobre pipeline"
+  - echo "Realizando um teste"
